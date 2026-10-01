@@ -1,0 +1,67 @@
+symptoms,medicine
+fever,Paracetamol
+high fever,Paracetamol
+mild fever,Paracetamol
+fever and headache,Paracetamol
+fever and body pain,Paracetamol
+fever and chills,Paracetamol
+headache,Paracetamol
+mild headache,Paracetamol
+severe headache,Paracetamol
+headache and body pain,Paracetamol
+body pain,Paracetamol
+muscle pain,Paracetamol
+body ache,Paracetamol
+headache and fever,Paracetamol
+fever headache body pain,Paracetamol
+runny nose,Cetirizine
+blocked nose,Cetirizine
+sneezing,Cetirizine
+frequent sneezing,Cetirizine
+watery eyes,Cetirizine
+runny nose and sneezing,Cetirizine
+sneezing and watery eyes,Cetirizine
+blocked nose and sneezing,Cetirizine
+runny nose watery eyes sneezing,Cetirizine
+itchy nose and sneezing,Cetirizine
+common cold symptoms,Cetirizine
+cold and sneezing,Cetirizine
+nasal congestion,Cetirizine
+nose irritation,Cetirizine
+dust allergy sneezing,Cetirizine
+pollen allergy sneezing,Cetirizine
+acidity,Antacid
+heartburn,Antacid
+indigestion,Antacid
+stomach acidity,Antacid
+burning sensation in stomach,Antacid
+acid reflux,Antacid
+gas and acidity,Antacid
+stomach burning,Antacid
+sour taste in mouth,Antacid
+chest burning after eating,Antacid
+bloating and acidity,Antacid
+indigestion after meal,Antacid
+stomach discomfort after eating,Antacid
+gastric problem,Antacid
+acidic stomach,Antacid
+dry cough,Cough Syrup
+mild cough,Cough Syrup
+cough,Cough Syrup
+persistent cough,Cough Syrup
+cough and throat irritation,Cough Syrup
+dry throat and cough,Cough Syrup
+night cough,Cough Syrup
+cough due to throat irritation,Cough Syrup
+mild dry cough,Cough Syrup
+throat irritation and cough,Cough Syrup
+sore throat,Lozenges
+mild sore throat,Lozenges
+throat pain,Lozenges
+throat irritation,Lozenges
+dry throat,Lozenges
+scratchy throat,Lozenges
+sore and dry throat,Lozenges
+throat discomfort,Lozenges
+pain while swallowing,Lozenges
+mild throat pain,Lozenges

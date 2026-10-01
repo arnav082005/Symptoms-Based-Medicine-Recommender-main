@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Symptom Medicine Recommender</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>Symptom Medicine Recommender</h1>
+
+            <p class="subtitle">
+                Enter your symptoms and get an AI-based recommendation.
+            </p>
+
+
+            <label for="symptoms">
+                Enter your symptoms
+            </label>
+
+            <textarea
+                id="symptoms"
+                rows="5"
+                placeholder="Example: headache and fever">
+            </textarea>
+
+
+            <button onclick="getRecommendation()">
+                Get Recommendation
+            </button>
+
+
+            <div id="loading" class="loading">
+                Processing...
+            </div>
+
+
+            <div id="result" class="result">
+
+                <h2>Recommendation</h2>
+
+                <p>
+                    <strong>Suggested medicine:</strong>
+                    <span id="medicine"></span>
+                </p>
+
+                <p>
+                    <strong>Model confidence:</strong>
+                    <span id="confidence"></span>%
+                </p>
+
+            </div>
+
+
+            <div class="warning">
+
+                <strong>Medical Disclaimer</strong>
+
+                <p>
+                    This application is an educational prototype and
+                    does not provide medical diagnosis or prescriptions.
+                    Please consult a qualified healthcare professional
+                    before taking any medicine.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}">
+    </script>
+
+</body>
+
+</html>
